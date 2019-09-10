@@ -1,0 +1,10 @@
+
+
+.flex{
+    display: flex;
+   justify-content: center;
+}
+.centrar{
+    display: table;
+    margin: 0 auto;
+}
