@@ -8,28 +8,45 @@
     <title>Document</title>
 </head>
 <body>
-    <br>
-    <br>
-    <div class="flex">
-        <button onclick="tirar()">tirar</button>
-    </div>
-    <br>
-    <br>
-
-    <div class="flex">
-        <div>
-            <img id="dado1"src="img/dado1.PNG" alt="">
+    <section id="inicio" class="">
+        <input id="name" type="text"  class="InputNombre" placeholder="Ingresa tu nombre">
+        <button onclick="jugar()">Jugar</button>
+    </section>
+    <section id="dice" class="none">
+        <br>
+        <br>
+        <div class="flex">
+            <button onclick="tirar()">tirar</button>
         </div>
-        <div>
-            <img id="dado2"src="img/dado1.PNG" alt="">
-        </div>    
-    </div>
-    <br>
-    <br>
-    <br>
-    <div class="centrar">
-        <label id="mensaje"></label>
-    </div>
+        <br>
+        <br>
+
+        <div class="flex">
+            <div>
+                <img id="dado1"src="img/dado1.PNG" alt="">
+            </div>
+            <div>
+                <img id="dado2"src="img/dado1.PNG" alt="">
+            </div>    
+        </div>
+        <br>
+        <br>
+        <br>
+        <div class="centrar">
+            <label id="mensaje"></label>
+        </div>
+
+        <div class="flex">
+            <div id="btn-top10"><button onclick="top10()">top10</button></div>
+            <div id="btn-topmundial"> <button onclick="topmundial()">topmundial</button></div>
+        </div>
+        <div id="rankk">
+            
+        </div>
+    </section>
+    <section id="ranking">
+
+    </section>
 </body>
 <script type="text/javascript" src="js/main.js"></script>
 </html>

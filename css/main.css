@@ -1,4 +1,14 @@
-
+.InputNombre{
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    text-align: center;
+    background-color:skyblue;
+    color:black;
+}
+.none{
+    display: none;
+}
 
 .flex{
     display: flex;
